@@ -66,14 +66,8 @@ const perguntas = [
             }
 
         ]
-},
-{
-    enunciado: "",
-        alternativas: [
-            "Alternativa1",
-            "Alternativa2"
-        ]
 }
+
 ];
 let atual = 0;
 let perguntaAtual;
