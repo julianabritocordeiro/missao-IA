@@ -24,13 +24,13 @@ const perguntas = [
             {
                 texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
                 afirmacao: "afirmacao"
-            }, // <--- Vírgula adicionada aqui
+            },
             {
                 texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
                 afirmacao: "afirmacao"
             }
         ]
-    }, // <--- Chave } e vírgula corrigidas aqui
+    }, 
     {
         enunciado: "Depois que Gabriel escreveu o trabalho, teve uma discussão sobre o impacto da IA no trabalho do futuro o que Gabriel faz:",
         alternativas: [
