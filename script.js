@@ -20,6 +20,7 @@ const perguntas = [
 
         ]
     },
+
     {
         enunciado: "Com a descoberta desta tecnologia uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre IA. No fim de uma aula ela pede que Gabriel escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude Gabriel toma?",
         alternativas: [
@@ -31,12 +32,9 @@ const perguntas = [
                 texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
                 afirmacao: "afirmacao"
         ]
-    }
+    },
             
-            
-
-    }
-{
+    {
     enunciado: "Depois que Gabriel escreveu o trabalho, teve uma discussão sobre o impacto da IA no trabalho do futuro o que Gabriel faz:",
         alternativas: [
             {
@@ -50,8 +48,9 @@ const perguntas = [
             }
 
         ]
-},
-{
+    },
+
+    {
     enunciado: "Ao final da discussão, Gabriel precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
         alternativas: [
             {
@@ -66,7 +65,7 @@ const perguntas = [
             }
 
         ]
-}
+    }
 
 ];
 let atual = 0;
@@ -80,7 +79,7 @@ function mostraPergunta() {
 function mostraAlternativas() {
     for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa;
+        botaoAlternativas.textContent = alternativa.texto;
         caixaAlternativas.appendChild(botaoAlternativas);
     }
 }
