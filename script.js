@@ -104,8 +104,9 @@ function respostaSelecionada(opcaoSelecionada){
 
 function mostraResultado(){
     caixaPerguntas.textContent = "Em 2049...";
-    textoResultado.textContent = historiaFinal;
+    textoResultado.textContent = historiaFinal.trim();
     caixaAlternativas.textContent = "";
+    caixaResultado.style.display = "block";
 
 
 }
