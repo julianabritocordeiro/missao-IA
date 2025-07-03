@@ -55,8 +55,8 @@ button:hover {
 .caixa-resultado {
     display: none;
     margin-top: 20px;
-    text-align: left;
-    line-height: 1.5;
+    text-align: justify;
+    line-height: 1.6;
 }
 
 @media (max-width: 400px) {
